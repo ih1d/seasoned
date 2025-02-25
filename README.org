@@ -1,0 +1,4 @@
+#+author: Isaac H. Lopez Diaz
+#+date: 2025-02-25
+
+* The Seasoned Schemer
