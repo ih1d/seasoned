@@ -14,3 +14,8 @@
 (define sub1
   (lambda (x)
     (- x 1)))
+
+;; Checks if value is equal to 1
+(define one?
+  (lambda (x)
+    (= x 1)))
