@@ -16,4 +16,10 @@
       (I set1))))
 
 ;; Intersection of list of lists
-
+(define intersectall
+  (lambda (lset)
+    (cond
+     ((null? lset) '())
+     ((null? (cdr lset)) (car lset))
+     (else (intersect (car lset)
+		      (intersectall (cdr lset)))))))
